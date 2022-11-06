@@ -21,13 +21,13 @@ This repository contains the data sets and the source code of the author's Bache
     - pd_project_includes.h
     - pd_project_defines.h (not used anymore)
     - tfmini_plus.h
-    - tfmini_plus_uart.h
+    - tfmini_plus_uart.h (highly incomplete, but not necessary here)
   - /XM122/source:
     - main.c
     - memsic_mmc5983ma.c
     - pd_ble_messages.c
     - tfmini_plus.c
-    - tfmini_plus_uart.c
+    - tfmini_plus_uart.c (highly incomplete, but not necessary here)
 
 ## Gateway
 - folder: central_csv_bleak

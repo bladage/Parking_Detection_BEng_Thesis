@@ -11,7 +11,8 @@ This repository contains the data sets and the source code of the author's Bache
 ## XM122
 - the firmware of the Acconner XM122
 - this is a microcontroller and pulsed RADAR, based on the Nordic nRF52840
-- the source code contains the Acconeer's SDK for the XM122
+- the source code contains the Acconeer's SDK v2.11.0 for the XM122
+- the SDK is based on the Nordic nRF5 SDK v15.2.0
 - the SDKs are not modified, except for the sdk_config.h and the files which are associated to settings of Segger Embedded Studio (used IDE for the project)
 - custom files are:
   - /XM122/include:

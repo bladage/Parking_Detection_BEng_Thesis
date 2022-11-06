@@ -9,13 +9,17 @@ This repository contains the data sets and the source code of the author's Bache
 - xx_measurement_clean.csv: file where the incomplete rows are deleted
 
 ## XM122
-- folder: sensorsystem
 - the firmware of the Acconner XM122
 - this is a microcontroller and pulsed RADAR, based on the Nordic nRF52840
-- the source code contains the Nordic SDK 15.3 and Acconeer's SDK for the XM122
+- the source code contains the Acconeer's SDK for the XM122
 - the SDKs are not modified, except for the sdk_config.h and the files which are associated to settings of Segger Embedded Studio (used IDE for the project)
-- main file and other libraries: sensorsystem/nRF5_SDK_15.3.0_59ac345/xm122/source
-- header files: sensorsystem/nRF5_SDK_15.3.0_59ac345/xm122/include
+- custom files are:
+  - /XM122/include:
+    - 
+    -
+  - /XM122/source:
+    - main.c
+    -
 
 ## Gateway
 - folder: central_csv_bleak

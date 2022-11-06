@@ -1,0 +1,8 @@
+# Override the "dump" function in nRF5_SDK_15.3.0_59ac345/components/toolchain/gcc/Makefile.common by adding a '+' before the makefile call.
+# This is only a workaround to get rid of the warning "make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.", Please check if this is needed everytime you update the NRF SDK.
+override define dump
+$(eval CONTENT_TO_DUMP := $(1)) \
++"$(MAKE)" -s --no-print-directory \
+  -f "$(TEMPLATE_PATH)/dump.mk" VARIABLE=CONTENT_TO_DUMP
+endef
+export CONTENT_TO_DUMP

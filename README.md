@@ -15,11 +15,18 @@ This repository contains the data sets and the source code of the author's Bache
 - the SDKs are not modified, except for the sdk_config.h and the files which are associated to settings of Segger Embedded Studio (used IDE for the project)
 - custom files are:
   - /XM122/include:
-    - 
-    -
+    - memsic_mmc5983ma.h
+    - pd_ble_messages.h
+    - pd_project_includes.h
+    - pd_project_defines.h (not used anymore)
+    - tfmini_plus.h
+    - tfmini_plus_uart.h
   - /XM122/source:
     - main.c
-    -
+    - memsic_mmc5983ma.c
+    - pd_ble_messages.c
+    - tfmini_plus.c
+    - tfmini_plus_uart.c
 
 ## Gateway
 - folder: central_csv_bleak
